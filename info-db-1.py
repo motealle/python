@@ -17,7 +17,7 @@ import string
 n='b'
 while (n != '*'):
 	n = raw_input('')
-	a = split(n)
+	a = n.split()
+	for b in a:
+		print b
     
-for b in a:
-	print b
