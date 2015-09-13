@@ -15,9 +15,11 @@
 # *
 import string
 n='b'
+db=[]
+b=0
+a[5][5]=1
 while (n != '*'):
 	n = raw_input('')
-	a = n.split()
-	for b in a:
-		print b
-    
+	a[b][1] = n.split()
+	b+=1
+	print a[0]
