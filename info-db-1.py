@@ -29,15 +29,38 @@ while 1:
 while 1:
     n = raw_input('')
     if n == '*':
+        # return
         break
     c = (n.split())
     # print c
     if c[0] in lst:
         # print 'command recogized'
         for i in range(0, len(a)):
+            finded = False  
             if c[1] in a[i]:
                 # print a[i]
-                out = ''
-                for j in range(0, len(a[i])):
-                    out += a[i][j]+' '
-                print out  # len(a[i])
+                finded=True
+                print "-----------------------------------"
+                if c[0] == 'no':
+                    print "search result for \"no %s\":" % a[i][0]
+                elif c[0] == 'fn':
+                    print "search result for \"fn %s\":" % a[i][1]
+                elif c[0] == 'ln':
+                    print "search result for \"ln %s\":" % a[i][2]
+                elif c[0] == 'bd':
+                    print "search result for \"bd %s\":" % a[i][3]
+                print "-----------------------------------"
+                print "number: %s" % a[i][0]
+                print "first name: %s" % a[i][1]
+                print "last name: %s" % a[i][2]
+                print "birth date: %s" % a[i][3]
+
+            else:
+                print "-----------------------------------"
+                print "search result for \"%s %s\":" % (c[0], a[i][0])
+                print "-----------------------------------"
+                print "not found"
+                print "-----------------------------------"
+                                    # out = ''
+                                    # for j in range(0, len(a[i])):
+                                    #     out += a[i][j]+' '
