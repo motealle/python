@@ -34,8 +34,11 @@ while 1:
     c = (n.split())
     finded = False
     # print c
+    ff = True
     for i in range(0, len(a)):
-        if c[0] in lst and c[1] in a[i]:
+
+        if c[0] in lst and c[1] in a[i] and ff:
+            ff = False
             # print 'command recogized'
             # for i in range(0, len(a)):
             #     finded = False
@@ -56,14 +59,14 @@ while 1:
             print "last name: %s" % a[i][2]
             print "birth date: %s" % a[i][3]
             break
-    if finded == False:
+    if not finded:
         if c[0] in lst and c[1] not in a[i]:
             print "-----------------------------------"
             print "search result for \"%s %s\":" % (c[0], c[1])
             print "-----------------------------------"
             print "not found"
             print "-----------------------------------"
-
+            break
         # else:
         # out = ''
         # for j in range(0, len(a[i])):
