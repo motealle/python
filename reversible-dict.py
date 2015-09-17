@@ -1,10 +1,13 @@
 import string
-inp=''
-dic = {}
+inp = ''
+lst = []
 while True:
-    inp = raw_input()
+    inp = str(raw_input())
     if inp == '*':
-    	break
-    dic[inp]=inp[::-1]
-for p in dic:
-	print p, dic[p]
+        break
+    lst.append(inp)
+for p in lst:
+    if p[::-1] in lst:
+        print p, p[::-1]
+    else:
+    	print p
