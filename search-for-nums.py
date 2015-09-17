@@ -5,9 +5,10 @@ while True:
     if inp == '0':
         break
     if inp.isdigit():
-        lst += inp
+        lst.append(inp)
 inp = raw_input()
 if inp.isdigit():
+    # print lst
     if inp in lst:
         print 'yes'
     else:
