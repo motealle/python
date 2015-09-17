@@ -7,7 +7,6 @@ while True:
     if inp.isdigit():
         lst += inp
 inp = raw_input()
-print ''
 if inp.isdigit():
     if inp in lst:
         print 'yes'
