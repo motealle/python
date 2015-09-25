@@ -65,9 +65,9 @@ while 1:
             print "search result for \"%s %s\":" % (c[0], c[1])
             print "-----------------------------------"
             print "not found"
-            print "-----------------------------------"
             break
         # else:
         # out = ''
         # for j in range(0, len(a[i])):
         #     out += a[i][j]+' '
+print "-----------------------------------"
