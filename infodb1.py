@@ -19,7 +19,7 @@ db = []
 b = 0
 a, c = [], []
 lst = ['no', 'fn', 'ln', 'bd']
-while 1:
+while True:
     n = raw_input('')
     if n == '*':
         break
@@ -36,13 +36,12 @@ while 1:
     # print c
     ff = True
     for i in range(0, len(a)):
-
-        if c[0] in lst and c[1] in a[i] and ff:
+        # if c[0] in lst and c[1] in a[i] and ff:
+        if c[0] == 'no' and c[1] == a[i][0] and ff:
+        if c[0] == 'fn' and c[1] == a[i][1] and ff:
+        if c[0] == 'ln' and c[1] == a[i][2] and ff:
+        if c[0] == 'bd' and c[1] == a[i][3] and ff:
             ff = False
-            # print 'command recogized'
-            # for i in range(0, len(a)):
-            #     finded = False
-            #         # print a[i]
             finded = True
             print "-----------------------------------"
             if c[0] == 'no':
@@ -66,8 +65,4 @@ while 1:
             print "-----------------------------------"
             print "not found"
             break
-        # else:
-        # out = ''
-        # for j in range(0, len(a[i])):
-        #     out += a[i][j]+' '
 print "-----------------------------------"
