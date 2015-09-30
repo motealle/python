@@ -16,7 +16,7 @@
 import string
 n = 'b'
 db = []
-b = 0
+# b = 0
 a, c = [], []
 lst = ['no', 'fn', 'ln', 'bd']
 while True:
@@ -24,9 +24,9 @@ while True:
     if n == '*':
         break
     a.append(n.split())
-    b += 1
+    # b += 1
     # print a
-while 1:
+while True:
     n = raw_input('')
     if n == '*':
         # return
@@ -34,35 +34,57 @@ while 1:
     c = (n.split())
     finded = False
     # print c
-    ff = True
+    first_find = True
     for i in range(0, len(a)):
-        # if c[0] in lst and c[1] in a[i] and ff:
-        if c[0] == 'no' and c[1] == a[i][0] and ff:
-        if c[0] == 'fn' and c[1] == a[i][1] and ff:
-        if c[0] == 'ln' and c[1] == a[i][2] and ff:
-        if c[0] == 'bd' and c[1] == a[i][3] and ff:
-            ff = False
-            finded = True
+        # if c[0] in lst and c[1] in a[i] and first_find:
+        if c[0] == 'no' and c[1] == a[i][0] and first_find:
             print "-----------------------------------"
-            if c[0] == 'no':
-                print "search result for \"no %s\":" % a[i][0]
-            elif c[0] == 'fn':
-                print "search result for \"fn %s\":" % a[i][1]
-            elif c[0] == 'ln':
-                print "search result for \"ln %s\":" % a[i][2]
-            elif c[0] == 'bd':
-                print "search result for \"bd %s\":" % a[i][3]
+            print "search result for \"no %s\":" % a[i][0]
+            first_find = False
+            finded = True
             print "-----------------------------------"
             print "number: %s" % a[i][0]
             print "first name: %s" % a[i][1]
             print "last name: %s" % a[i][2]
             print "birth date: %s" % a[i][3]
             break
-    if not finded:
-        if c[0] in lst and c[1] not in a[i]:
+        elif c[0] == 'fn' and c[1] == a[i][1] and first_find:
             print "-----------------------------------"
-            print "search result for \"%s %s\":" % (c[0], c[1])
+            print "search result for \"fn %s\":" % a[i][1]
+            first_find = False
+            finded = True
             print "-----------------------------------"
-            print "not found"
+            print "number: %s" % a[i][0]
+            print "first name: %s" % a[i][1]
+            print "last name: %s" % a[i][2]
+            print "birth date: %s" % a[i][3]
             break
+        elif c[0] == 'ln' and c[1] == a[i][2] and first_find:
+            print "-----------------------------------"
+            print "search result for \"ln %s\":" % a[i][2]
+            first_find = False
+            finded = True
+            print "-----------------------------------"
+            print "number: %s" % a[i][0]
+            print "first name: %s" % a[i][1]
+            print "last name: %s" % a[i][2]
+            print "birth date: %s" % a[i][3]
+            break
+        elif c[0] == 'bd' and c[1] == a[i][3] and first_find:
+            print "-----------------------------------"
+            print "search result for \"bd %s\":" % a[i][3]
+            first_find = False
+            finded = True
+            print "-----------------------------------"
+            print "number: %s" % a[i][0]
+            print "first name: %s" % a[i][1]
+            print "last name: %s" % a[i][2]
+            print "birth date: %s" % a[i][3]
+            break
+
+    if not finded and c[0] in lst:
+        print "-----------------------------------"
+        print "search result for \"%s %s\":" % (c[0], c[1])
+        print "-----------------------------------"
+        print "not found"
 print "-----------------------------------"
