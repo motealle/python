@@ -1,6 +1,6 @@
 import string
 import sys
-domains = {'.com', '.org', '.net', '.COM', '.ORG', '.NET'}
+domains = {'.COM', '.ORG', '.NET'}
 # ills = '~ ! # $ % ^ & * ( ) _ + = - " / \\ | ? > < ` [ ] { } : ' + "'"
 alphas = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ.@'
 als = list(alphas)
@@ -10,13 +10,15 @@ def check(n):
     # print ills.split()
     # print list(n)
     isd = ['1']
+    # print n.upper()
     if len(n) < 7:
         isd.append('0')
     else:
         for v in list(n):
             if v.capitalize() not in als:
                 isd.append('0')
-        if n[-4:] not in domains or n[0:1] == '.' or n.count('.') > 2:
+        if n[-4:].upper() not in domains or n[0:1] == '.' or n.count('.') > 2:
+            # print n[-4:], n[-4:].upper()
             isd.append('0')
             # print "if n[-4:] not in domains:"
         if '@' not in n:
