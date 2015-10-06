@@ -1,0 +1,38 @@
+1394 2 0
+wo -2 l
+wo 2 l
+wo 1 l
+allen 0 o
+allen -0 o
+tracked -3 u
+early 8 j
+world -6 l
+hgkjgy -5 P
+hgkjgy -0 p
+hgkjgy -1 p
+hgkjgy -2 p
+hgkjgy -3 p
+hgkjgy 0 p
+hgkjgy 1 p
+hgkjgy 2 p
+hgkjgy 3 p
+hgkjgy -8 p
+hgkjgy 8 p
+h 8 p
+h 8 f
+h 0 f
+s 1 f
+s1 f
+s 0 'jhjhgjg
+
+
+
+
+hgkjgy o f
+hgkjgy 5 q
+
+hgkjgy o f
+hgkjgy 6 q
+
+
+
