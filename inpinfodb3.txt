@@ -1,0 +1,135 @@
+insert 357 Nico Grassi 1995-02-09
+select fn Nina
+update no 357 set fn Nina
+update ln Grassi set ln Rossi
+select fn Nina
+*
+
+
+
+insert 266 Elga Caputo 1990-05-05
+insert 160 Aaron Riva 1989-09-15
+insert 351 Demis Ferraro 1991-08-15
+insert 357 Nico Grassi 1995-02-09
+insert 357 Nicdo Grassi 1995-02-09
+insert 336 Albino Rossi 1994-05-30
+insert 569 Radames Bernardi 1991-04-19
+insert 522 Elio Pellegrino 1994-04-26
+select no 357
+select fn Demis
+select ln Rossi
+select bd 1990-05-05
+select fn Nina
+insert 90571572 Arturo Riva 1998-01-26
+insert 20338145 Gilda Ferri 1986-05-27
+insert 33296739 Edipfo Mazdza 1998-08-04
+insert 33296739 Edispo Maazza 1998-08-04
+insert 33296739 Edidpo Mfazza 1998-08-04
+insert 74357673 Osea Negri 1998-01-15
+insert 87027402 Monia Parisi 1999-04-26
+insert 61426580 Mariagiulia Farina 1991-08-08
+insert 73098256 Olo Valentini 1988-03-15
+insert 80901266 Elga Caputo 1990-05-05
+insert 01861570 Ivonne Guerra 1989-06-24
+insert 76513626 Battista Russo 1986-08-09
+insert 82622060 Aaron Riva 1989-09-15
+insert 80528012 Filomena Caputo 1999-08-07
+insert 14529351 Demis Ferraro 1991-08-15
+insert 71556888 Giulietta Caputo 1987-11-27
+insert 24018647 Ivonne Giuliani 1999-03-21
+insert 83569357 Nico Grassi 1995-02-09
+insert 27915028 Bibiana Grasso 1987-02-08
+insert 56987621 Oreste Rizzo 1987-09-12
+insert 63234336 Albino Rossi 1994-05-30
+insert 77049551 Filomena Martini 1994-05-10
+insert 64404905 Marianita Serra 1992-11-08
+insert 19338569 Radames Bernardi 1991-04-19
+insert 11719274 Nunzia Morelli 1993-07-24
+insert 98113484 Terzo Marino 1991-03-11
+insert 93069175 Piersilvio Longo 1988-08-30
+insert 79391870 Flavio Cattaneo 1992-01-17
+insert 86060806 Caio Bruno 1992-03-24
+insert 11481744 Vienna Russo 1995-08-05
+insert 46125910 Ercole Silvestri 1992-12-04
+insert 80616900 Raniero Barbieri 1988-06-16
+insert 19994055 Cristyn Ricci 1995-03-22
+insert 40031309 Abramo Palmieri 1997-04-25
+insert 07739330 Monia Rizzo 1997-07-24
+insert 69805479 Cristyn Romano 1999-04-24
+insert 67395194 Loretta Sala 1990-10-08
+insert 90435621 Nestore Basile 1995-12-01
+insert 80996392 Ursula Ferri 1994-12-12
+insert 06998264 Rebecca Bianco 1999-02-15
+insert 06315344 Maristella Ferretti 1991-12-23
+insert 65269589 Raniero Lombardi 1987-11-06
+insert 40980522 Elio Pellegrino 1994-04-26
+insert 69748097 Carmelo Fabbri 1991-09-24
+insert 34098455 Antimo Barone 1998-03-24
+insert 44666583 Rosita Colombo 1993-03-21
+insert 60020505 Ettore Gallo 1993-07-03
+insert 95102191 Flaviana Caputo 1995-10-17
+insert 12630998 Ciro Greco 1990-03-22
+insert 43293728 Ione Cattaneo 1986-08-07
+insert 99311988 Olimpia Lombardi 1993-10-13
+insert 91449245 Ermes Bianchi 1986-09-03
+insert 18389982 Giancarlo Gallo 1988-01-22
+insert 39690968 Liborio Vitale 1991-05-16
+insert 21354724 Erminio Rossetti 1989-08-25
+insert 97137771 Jelena Bianchi 1998-11-13
+insert 25470130 Albino Fontana 1997-11-06
+insert 93620505 Cleros Grassi 1998-09-28
+insert 83306334 Ferdinando Basile 1987-10-02
+insert 47502000 Luce Messina 1995-02-18
+insert 41333006 Davis Neri 1992-03-12
+insert 79174961 Arcibaldo Gentile 1997-12-06
+insert 28340379 Luna Pellegrino 1985-07-15
+insert 92909557 Antonio Lombardi 1986-03-02
+insert 22179692 Alessandro Grasso 1988-06-28
+insert 25555615 Thea Parisi 1987-09-05
+insert 61336728 Graziano Battaglia 1989-09-16
+insert 93785594 Flaviana Ferrara 1988-04-10
+insert 56845594 Caio Sala 1993-06-08
+insert 76937361 Walter Battaglia 1993-11-25
+insert 05314409 Raniero Sorrentino 1991-04-19
+insert 06019105 Orfeo Morelli 1992-10-20
+insert 26092799 Emanuel Riva 1992-12-09
+insert 07989537 Ortensia Parisi 1985-11-25
+insert 71545363 Emanuel Martino 1992-07-07
+insert 48947572 Tosca Ricci 1991-05-13
+insert 44533519 Marianita Rinaldi 1989-01-28
+insert 95791760 Lino Palumbo 1989-04-29
+insert 67648726 Manuele Morelli 1999-04-21
+insert 09233829 Modesto Ferrari 1988-08-15
+insert 12919628 Nunzia Rossi 1990-02-15
+insert 16325715 Olimpia Ricci 1995-03-28
+insert 11325819 Benedetta Caputo 1994-09-05
+insert 08830913 Erminio Amato 1987-06-28
+insert 68221959 Cecco Damico 1995-08-15
+insert 02919386 Dylan Costa 1992-08-25
+insert 38744969 Fatima Sala 1985-02-10
+insert 39216519 Cleopatra Monti 1985-06-23
+insert 78390713 Assia Cattaneo 1987-10-12
+insert 12415137 Bibiana Giordano 1989-07-09
+insert 79864107 Ilario Riva 1988-11-28
+insert 50609550 Sabino Bruno 1996-11-23
+insert 78086333 Siro Gatti 1993-11-16
+insert 37933517 Sirio Moretti 1998-01-04
+insert 71941943 Alan Cattaneo 1996-12-07
+insert 79256056 Enzo Palumbo 1987-12-12
+insert 03695074 Demis Esposito 1986-05-07
+insert 67825424 Michele Mazza 1990-12-27
+insert 67825424 Michele MazzaS 1990-12-27
+insert 67825424 MicheSle MazzaS 1990-12-27
+insert 19119038 Mauro Piras 1995-07-02
+insert 76864049 Costanzo Ferraro 1985-09-08
+insert 31244916 Arcibaldo Rossi 1993-05-07
+insert 82179588 Danuta Barbieri 1999-11-27
+select fn Monia
+select no 31244916
+select bd 1999-11-27
+select ln Costa
+select ln Enzo
+select no 1990-12-27
+select no 33296739
+select fn Gatti
+*
